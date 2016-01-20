@@ -1,0 +1,7 @@
+Final Project Computer Security
+
+To run the program:
+1. compile with g++ final.cpp -std=c++0x
+2. execute with ./a.out
+
+The program follows a simple structure consisting of one .h file and one .cpp file. The program consists of the main classes: execution, preprocessing, substitution, padding, shiftRows, parityBit, and mixColumns. The other 2 functions rgfMul and xorstr are helper functions for the mixColumns function to simplify calculations. The main functions perform their names encryption functions as described in the instructions with rgfMul performing the Rinjdael's Galois field multiplication and xorstr performing along side with the addition operation using XOR. The execute function simply handles user input and function calling.
